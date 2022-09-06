@@ -1,0 +1,2 @@
+#!/bin/bash
+mcho $((2#$BINARY))
