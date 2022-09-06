@@ -1,3 +1,2 @@
 #!/bin/bash
-echo {a..z}{a..z} | tr [:space:] "
-* | grep "00" -v
+echo {a..z}{a..z} | tr [:space:] '\n' | grep 'oo' -v
