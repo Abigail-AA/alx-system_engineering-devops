@@ -1,0 +1,3 @@
+#!/bin/bash
+echo {a..z}{a..z} | tr [:space:] "
+* | grep "00" -v
